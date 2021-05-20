@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draw me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./font/font.css">
+</head>
+<body>
+
+    <div class="painter">
+        <div class="panel">
+            <h1>Draw me</h1>
+            <div class="pen-size">
+                <button class="minus">-</button>
+                <span class="size"></span>
+                <button class="plus">+</button>
+            </div>
+            <div class="pen-color">
+                <span class="text">Colors</span>
+                <div class="color-box">
+                    <span class="color blue"></span>
+                    <span class="color red"></span>
+                    <span class="color green"></span>
+                    <span class="color black"></span>
+                </div>
+            </div>
+            <div class="clean-board">
+                <span class="text">
+                    Clean Board
+                </span>
+                <div class="clean">
+                    <button class="delete">clean</button>
+                </div>
+            </div>
+        </div>
+        <canvas width="1000px" height="550px" id="paint"></canvas>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
